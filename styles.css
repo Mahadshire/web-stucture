@@ -1,0 +1,136 @@
+.container{
+    width: 800px;
+    margin: auto;
+}
+
+header a{
+    /* font-size: 25px; */
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid gray;
+
+}
+
+/* header{
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+    border-bottom: 2px solid rgb(178, 176, 176);
+} */
+.sucontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.sideBar{
+    width: 20%;
+    height: 676px;
+    background-color: rgb(62, 165, 165);
+    margin: 2px;
+    text-align: left;
+    border-right: 2px solid rgb(63, 57, 57);
+}
+.Main{
+    width: 80%;
+    background-color: rgb(215, 215, 215);
+    padding: 20px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 9px rgba(255, 194, 194, 0.7);
+}
+
+ul{
+    margin-top: 70px;
+}
+
+li{
+    list-style: none;
+    padding: 24px 0;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+  
+}
+
+.shpes{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    border-radius: 13px;
+    border: 2px solid rgb(110, 108, 108);
+    margin: auto;
+    width: 220px;
+    height: 200px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    background-color: rgb(215, 215, 215);
+    top: 15px;
+    border: 2px solid rgb(110, 108, 108);
+}
+.rectangle{
+    width: 120px;
+    height: 100px;
+    border-radius: 8px;
+    border: 2px solid rgb(110, 108, 108);
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+.rectangle::before{
+    content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(215, 215, 215);
+  border-left: 2px solid rgb(110, 108, 108);
+  border-top: 2px solid rgb(110, 108, 108);
+  left: 36%;
+  top: -18px;
+  transform: rotate(45deg);
+
+}
+.boxes{
+    position: relative;
+    left: 3%;
+    top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px 10px;
+    align-content: center;
+    margin: auto;
+}
+.box{
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(178, 182, 182);
+}
+.logo{
+    color: #fff;
+    cursor: pointer;    
+}
+
